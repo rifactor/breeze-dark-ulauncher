@@ -1,6 +1,8 @@
 # Materia Ulauncher
 
-A theme for Ulauncher. based on One Dark theme.
+A theme for Ulauncher. Fork of [One Dark theme](https://github.com/sudosubin/one-dark-ulauncher).
+
+Based on [Materia Dark](https://github.com/nana-4/materia-theme) GTK theme.
 
 ## Screenshot
 ![](https://raw.githubusercontent.com/sudosubin/one-dark-ulauncher/assets/screenshot.png)
@@ -9,6 +11,6 @@ A theme for Ulauncher. based on One Dark theme.
 
 ```sh
 mkdir -p ~/.config/ulauncher/user-themes
-git clone https://github.com/sudosubin/one-dark-ulauncher.git \
-  ~/.config/ulauncher/user-themes/one-dark-ulauncher
+git clone https://github.com/levonhart/materia-dark-ulauncher \
+  ~/.config/ulauncher/user-themes/materia-dark-ulauncher
 ```
