@@ -5,7 +5,7 @@ A theme for Ulauncher. Fork of [One Dark theme](https://github.com/sudosubin/one
 Based on [Materia Dark](https://github.com/nana-4/materia-theme) GTK theme.
 
 ## Screenshot
-![](https://raw.githubusercontent.com/sudosubin/one-dark-ulauncher/assets/screenshot.png)
+![](https://raw.githubusercontent.com/levonhart/materia-dark-ulauncher/assets/screenshot.png)
 
 ## Installation
 
