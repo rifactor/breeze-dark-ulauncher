@@ -1,6 +1,6 @@
-# One Dark Ulauncher
+# Materia Ulauncher
 
-A theme for Ulauncher. One Dark theme.
+A theme for Ulauncher. based on One Dark theme.
 
 ## Screenshot
 ![](https://raw.githubusercontent.com/sudosubin/one-dark-ulauncher/assets/screenshot.png)

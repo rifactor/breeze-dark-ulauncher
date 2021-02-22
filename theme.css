@@ -1,10 +1,10 @@
 /**
  * Colors
  */
-@define-color on-black  #1E2127;
-@define-color on-grey1  #282c34;
-@define-color on-grey2  #5C6370;
-@define-color on-white  #ABB2BF;
+@define-color on-black  #181818;
+@define-color on-grey1  #242424;
+@define-color on-grey2  #383838;
+@define-color on-white  #ffffff;
 
 /**
  * App Window
