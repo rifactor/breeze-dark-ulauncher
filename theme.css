@@ -1,52 +1,35 @@
-/**
- * Colors
- */
-@define-color on-black  #181818;
-@define-color on-grey1  #242424;
-@define-color on-grey2  #383838;
-@define-color on-white  #A3A3A3;
+/*Colors*/
+@define-color on-black  #31363b;
+@define-color on-focus-bg  #3daee9;
+@define-color on-grey2  #3daee9;
+@define-color on-white  #fcfcfc;
+@define-color off-white  #eff0f1;
 
-/**
- * App Window
- */
+/*App Window*/
 @define-color bg_color @on-black;
 @define-color window_bg @bg_color;
 @define-color window_border_color @on-black;
 @define-color prefs_backgroud @on-white;
 
-/**
- * Input
- */
+/*Input*/
 @define-color selected_bg_color @on-grey2;
 @define-color selected_fg_color @on-white;
 @define-color input_color @on-white;
 @define-color caret_color darker(@input_color);
 
-/**
- * Result items
- */
-@define-color item_name @on-white;
-@define-color item_text @on-grey2;
-@define-color item_box_selected @on-grey1;
+/*Result items*/
+@define-color item_name @off-white;
+@define-color item_text @off-white;
+@define-color item_box_selected @on-focus-bg;
+@define-color item_box_border @on-focus-bg;
 @define-color item_text_selected @on-white;
 @define-color item_name_selected @on-white;
 @define-color item_shortcut_color @on-white;
 @define-color item_shortcut_shadow darker(@bg_color);
-@define-color item_shortcut_color_sel @on-white;
+@define-color item_shortcut_color_sel @off-white;
 @define-color item_shortcut_shadow_sel darker(@item_box_selected);
 
-.app {
-    background-color: @window_bg;
-    border-color: @window_border_color;
-}
-
-.input {
-    color: @input_color;
-}
-
-/**
- * Selected text in input
- */
+/*Selected text in input*/
 .input *:selected,
 .input *:focus,
 *:selected:focus {
@@ -62,9 +45,7 @@
 }
 
 .selected.item-box {
-    background-color: @item_box_selected;
-    border-left: 1px solid @window_border_color;
-    border-right: 1px solid @window_border_color;
+    background-color: alpha (@item_box_selected, 0.40);
 }
 .selected.item-box .item-text {
     color: @item_text_selected;
@@ -74,11 +55,11 @@
 }
 .item-shortcut {
     color: @item_shortcut_color;
-    text-shadow: 1px 1px 1px @item_shortcut_shadow;
+    text-shadow: 2px 2px 2px @item_shortcut_shadow;
 }
 .selected.item-box .item-shortcut {
     color: @item_shortcut_color_sel;
-    text-shadow: 1px 1px 1px @item_shortcut_shadow_sel;
+    text-shadow: 2px 2px 2px @item_shortcut_shadow_sel;
 }
 
 .prefs-btn {

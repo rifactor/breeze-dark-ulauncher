@@ -1,16 +1,19 @@
-# Materia Ulauncher
+# Breeze Dark Ulauncher
 
-A theme for Ulauncher. Fork of [One Dark theme](https://github.com/sudosubin/one-dark-ulauncher).
+A theme for Ulauncher. Fork of [Materia Dark Theme Ulauncher](https://github.com/levonhart/materia-dark-ulauncher).
 
-Based on [Materia Dark](https://github.com/nana-4/materia-theme) GTK theme.
+Based on [Breeze Dark](https://develop.kde.org/hig/style/color/dark/) theme.
 
 ## Screenshot
-![](https://raw.githubusercontent.com/levonhart/materia-dark-ulauncher/assets/screenshot.png)
+![Breeze Dark Ulauncher Theme Screenshot](/screenshots/breeze-dark-ulauncher.png)
 
 ## Installation
 
 ```sh
+# Make ulauncher user-themes folder
 mkdir -p ~/.config/ulauncher/user-themes
-git clone https://github.com/levonhart/materia-dark-ulauncher \
-  ~/.config/ulauncher/user-themes/materia-dark-ulauncher
+
+# Clone repo to user-themes folder
+git clone https://github.com/rifactor/breeze-dark-ulauncher \
+  ~/.config/ulauncher/user-themes/breeze-dark-ulauncher
 ```
